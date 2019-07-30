@@ -37,8 +37,7 @@ function tmplparse() {
 
 	var veh_detail_html =
 		"<a href=\"LANDING_URL\" target=\"_blank\">\
-                                  <div id=\"SOME_CODE\" class=\"vehicle_details\">\
-																	<img src=\"IMG_SRC\" onerror=\"this.onerror=null;this.src=\"https://img.dealerx.com/fuel/stills/undefined/undefined_st0640_090.png\";imgError();\" alt=\"Vehicle\"/>\
+                                  <div id=\"SOME_CODE\" class=\"vehicle_details\"><img src=\"IMG_SRC\" onerror=\"this.onerror=null;this.src=\"https://img.dealerx.com/fuel/stills/undefined/undefined_st0640_090.png\";imgError();\" alt=\"Vehicle\"/>\
                                     <div class=\"single_title\">\
                                       VEHICLE_TITLE\
                                     </div>\
