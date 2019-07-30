@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <advertisers>
+        <advertiser id="264" name="Homebridge">
+            <campaigns>
+                <campaign id="2004364" name="Homebridge Financial Services, Inc. July 2019">
+                    <line_items>
+                      <line_item id="66007" name="Homebridge - FHA Segment">
+                        <start_date>2019-07-15 00:00:00</start_date>
+                        <end_date>2019-07-31 23:59:59</end_date>
+                        <creative>
+                          <value id="2022934"/>
+                          <value id="2022935"/>
+                          <value id="2022936"/>
+                          <value id="2022937"/>
+                          <value id="2022938"/>
+                          <value id="2022939"/>
+                        </creative>
+                        <targeting>
+                          <language type="include">
+                            <value>en</value>
+                          </language>
+                          <domain>178</domain>
+                        </targeting>
+                        <strategy id="1">
+                          <parameter name="aCPM">10</parameter>
+                          <parameter name="tMargin">0.25</parameter>
+                          <parameter name="aBudget">5000</parameter>
+                        </strategy>
+                        <tracking_conversions>
+                          <value is_optimizing="1" is_landing="1">264300001</value>
+                          <value>264300002</value>
+                          <value>264300011</value>
+                        </tracking_conversions>
+                        <ssp id="bidswitch">
+                          <seat id="393"/>
+                          <seller_network id="google">
+                            <seat id="62043926372"/>
+                          </seller_network>
+                        </ssp>
+                      </line_item>
+                      <line_item id="66008" name="Homebridge - Renovation Segment">
+                        <start_date>2019-07-15 00:00:00</start_date>
+                        <end_date>2019-07-31 23:59:59</end_date>
+                        <creative>
+                          <value id="2022934"/>
+                          <value id="2022935"/>
+                          <value id="2022936"/>
+                          <value id="2022937"/>
+                          <value id="2022938"/>
+                          <value id="2022939"/>
+                        </creative>
+                        <targeting>
+                          <language type="include">
+                            <value>en</value>
+                          </language>
+                          <domain>178</domain>
+                        </targeting>
+                        <strategy id="1">
+                          <parameter name="aCPM">10</parameter>
+                          <parameter name="tMargin">0.25</parameter>
+                          <parameter name="aBudget">5000</parameter>
+                        </strategy>
+                        <tracking_conversions>
+                          <value is_optimizing="1" is_landing="1">264300001</value>
+                          <value>264300012</value>
+                          <value>264300011</value>
+                        </tracking_conversions>
+                        <ssp id="bidswitch">
+                          <seat id="393"/>
+                          <seller_network id="google">
+                            <seat id="62043926372"/>
+                          </seller_network>
+                        </ssp>
+                      </line_item>
+                    </line_items>
+                    <creatives>
+                      <html_creative id="2023991" name="fha (C)">
+                          <size>160x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2023992" name="fha (A)">
+                          <size>300x250</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2023993" name="fha (B)">
+                          <size>300x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2023994" name="fha (D)">
+                          <size>320x480</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2023995" name="fha (H)">
+                          <size>320x50</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2023996" name="fha (E)">
+                          <size>728x90</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='90' width='728' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='90' width='728' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2023997" name="reno (C)">
+                          <size>160x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2023998" name="reno (A)">
+                          <size>300x250</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2023999" name="reno (B)">
+                          <size>300x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024000" name="reno (D)">
+                          <size>320x480</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024001" name="reno (H)">
+                          <size>320x50</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024002" name="reno (E)">
+                          <size>728x90</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='90' width='728' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='90' width='728' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024003" name="fha-credit (C)">
+                          <size>160x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024004" name="fha-credit (A)">
+                          <size>300x250</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024005" name="fha-credit (B)">
+                          <size>300x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024006" name="fha-credit (H)">
+                          <size>320x50</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024007" name="fha-credit (D)">
+                          <size>320x480</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024008" name="fha-credit (E)">
+                          <size>728x90</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='90' width='728' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/fha-credit/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='90' width='728' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024009" name="self (C)">
+                          <size>160x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024010" name="self (A)">
+                          <size>300x250</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024011" name="self (B)">
+                          <size>300x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024012" name="self (D)">
+                          <size>320x480</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024013" name="self (H)">
+                          <size>320x50</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024014" name="self (E)">
+                          <size>728x90</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='90' width='728' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/self/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='90' width='728' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024021" name="va-reno (C)">
+                          <size>160x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='160' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024022" name="va-reno (A)">
+                          <size>300x250</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='250' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024023" name="va-reno (B)">
+                          <size>300x600</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='600' width='300' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024024" name="va-reno (D)">
+                          <size>320x480</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='480' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                      <html_creative id="2024025" name="va-reno (H)">
+                          <size>320x50</size>
+                          <can_track_clicks>true</can_track_clicks>
+                          <html_content>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content>
+                          <html_content_secure>
+                              <![CDATA[
+                                        <script>var account_id="WCTQSdr4",url="https://track.trafficscore.com/itrack/?account_id="+account_id+"&event=IMPRESSION&event_options=",options={advertiser_id:"${ADVERTISER_ID}",campaign_id:"${CAMPAIGN_ID}",flight_id:"${LINE_ITEM_ID}",height:"${PLAYER_HEIGHT}",width:"${PLAYER_WIDTH}",creative_id:"${CREATIVE_ID}",user_age:"${AGE}",user_gender:"${GENDER}",user_id:"${USER_ID}",IOS_ID:"${MOBILE_ID}",ANDROID_ID:"${MOBILE_ID}",platform_os:"${PLATFORM_OS}",page:"${PAGE}",domain:"${PAGE_DOMAIN}",ip_address:"${IP_ADDRESS}",referrer:"${REFERRER_DOMAIN}",inventory_source:"${SELLER_NETWORK}",site_name:"${SITE_NAME}",app_name:"${APP_NAME}",lat:"${LAT}",long:"${LONG}",Zipcode:"${ZIP_CODE}",metro_code:"${METRO_CODE}",device_make:"${DEVICE_MAKE}",device_model:"${DEVICE_MODEL}",click_url:"${CLICK_URL_ESC}",platform_carrier:"${PLATFORM_CARRIER}"},src_link=url+encodeURIComponent(JSON.stringify(options)),img=document.createElement("img");img.src=src_link;</script><iframe src='https://cdn.dealerx.com/creatives/WCTQSdr4/va-reno/index.html?click_url=${CLICK_URL_ESC}&Zipcode=${ZIP_CODE}&account_id=WCTQSdr4&bw_id=${USER_ID}&num_dest_url_esc=1&page=${PAGE}&domain=${PAGE_DOMAIN}&creative_id=${CREATIVE_ID}&campaign_id=${CAMPAIGN_ID}&flight_id=${LINE_ITEM_ID}' border='0' scrolling='no' height='50' width='320' frameborder='0'></iframe>
+                                      ]]>
+                          </html_content_secure>
+                          <ssp>
+                              <google>
+                                  <attribute>
+                                      <value>21</value>
+                                  </attribute>
+                              </google>
+                          </ssp>
+                          <category>
+                              <cat id="IAB">
+                                  <subcats>
+                                      <cat id="2"></cat>
+                                  </subcats>
+                              </cat>
+                          </category>
+                          <landing_page_url>https://www.homebridge.com/</landing_page_url>
+                      </html_creative>
+                    </creatives>
+                </campaign>
+            </campaigns>
+            <pixels>
+                <pixel id="264300001" name="landing" post_view_hours="2160" landing_hours="24" expiration_hours="720"/>
+                <pixel id="264300002" name="form_fill_fha" post_click_hours="2160" post_view_hours="2160" expiration_hours="720"/>
+                <pixel id="264300012" name="form_fill_renovation" post_click_hours="2160" post_view_hours="2160" expiration_hours="720"/>
+                <pixel id="264300011" name="pageview" post_click_hours="2160" post_view_hours="2160" expiration_hours="720"/>
+            </pixels>
+        </advertiser>
+    </advertisers>
+    <domain_lists>
+      <domain_list id="178">
+        <domain>6abc.com</domain>
+        <domain>7online.com</domain>
+        <domain>aaa.com</domain>
+        <domain>abcnews.com</domain>
+        <domain>abcnews.go.com</domain>
+        <domain>airspacemag.com</domain>
+        <domain>arstechnica.com</domain>
+        <domain>auto.aarp.org</domain>
+        <domain>auto.com</domain>
+        <domain>auto.howstuffworks.com</domain>
+        <domain>autoblog.com</domain>
+        <domain>autobytel.com</domain>
+        <domain>autocheck.com</domain>
+        <domain>autoevolution.com</domain>
+        <domain>autoguide.com</domain>
+        <domain>automobilemag.com</domain>
+        <domain>automotive.com</domain>
+        <domain>autonews.com</domain>
+        <domain>autotrader.com</domain>
+        <domain>autoweek.com</domain>
+        <domain>avbuyer.com</domain>
+        <domain>aviscarsales.com</domain>
+        <domain>bankrate.com</domain>
+        <domain>barrons.com</domain>
+        <domain>bbcamerica.com</domain>
+        <domain>bing.com</domain>
+        <domain>bizjournals.com</domain>
+        <domain>bleacherreport.com</domain>
+        <domain>bloomberg.com</domain>
+        <domain>boston.com</domain>
+        <domain>buffalonews.com</domain>
+        <domain>businessinsider.com</domain>
+        <domain>businessweek.com</domain>
+        <domain>buzzfeed.com</domain>
+        <domain>campendium.com</domain>
+        <domain>campingworld.com</domain>
+        <domain>caranddriver.com</domain>
+        <domain>carbuzz.com</domain>
+        <domain>carchex.com</domain>
+        <domain>cardomain.com</domain>
+        <domain>carfax.com</domain>
+        <domain>cargurus.com</domain>
+        <domain>carperks.truecar.com</domain>
+        <domain>cars.about.com</domain>
+        <domain>cars.com</domain>
+        <domain>cars.usnews.com</domain>
+        <domain>carscoops.com</domain>
+        <domain>carsdirect.com</domain>
+        <domain>carsforsale.com</domain>
+        <domain>carsoup.com</domain>
+        <domain>cbsnews.com</domain>
+        <domain>chicagotribune.com</domain>
+        <domain>cnbc.com</domain>
+        <domain>cnet.com</domain>
+        <domain>cnn.com</domain>
+        <domain>consumerreports.org</domain>
+        <domain>controller.com</domain>
+        <domain>cruiseamerica.com</domain>
+        <domain>curbed.com</domain>
+        <domain>dailymotion.com</domain>
+        <domain>dailyrecord.com</domain>
+        <domain>detroitnews.com</domain>
+        <domain>digitaltrends.com</domain>
+        <domain>directv.com</domain>
+        <domain>dmv.org</domain>
+        <domain>drugs.com</domain>
+        <domain>eater.com</domain>
+        <domain>ebay.com</domain>
+        <domain>economist.com</domain>
+        <domain>edmunds.com</domain>
+        <domain>ehow.com</domain>
+        <domain>elitedaily.com</domain>
+        <domain>engadget.com</domain>
+        <domain>eonline.com</domain>
+        <domain>espn.com</domain>
+        <domain>examiner.com</domain>
+        <domain>expedia.com</domain>
+        <domain>fanduel.com</domain>
+        <domain>fantasypros.com</domain>
+        <domain>fifthwheelst.com</domain>
+        <domain>fitnessmagazine.com</domain>
+        <domain>foodbeast.com</domain>
+        <domain>foodnetwork.com</domain>
+        <domain>fool.com</domain>
+        <domain>forbes.com</domain>
+        <domain>fox43.com</domain>
+        <domain>foxbusiness.com</domain>
+        <domain>foxnews.com</domain>
+        <domain>foxsports.com</domain>
+        <domain>ft.com</domain>
+        <domain>ganderoutdoors.com</domain>
+        <domain>gasbuddy.com</domain>
+        <domain>gawker.com</domain>
+        <domain>geek.com</domain>
+        <domain>generalrv.com</domain>
+        <domain>gizmodo.com</domain>
+        <domain>golfcentral.com</domain>
+        <domain>gorving.com</domain>
+        <domain>gq.com</domain>
+        <domain>grubstreet.com</domain>
+        <domain>healthline.com</domain>
+        <domain>heavy.com</domain>
+        <domain>hertz.com</domain>
+        <domain>hertzcarsales.com</domain>
+        <domain>history.com</domain>
+        <domain>homes.com</domain>
+        <domain>hotels.com</domain>
+        <domain>howstuffworks.com</domain>
+        <domain>hubpages.com</domain>
+        <domain>huffingtonpost.com</domain>
+        <domain>ibtimes.com</domain>
+        <domain>investopedia.com</domain>
+        <domain>investorplace.com</domain>
+        <domain>jalopnik.com</domain>
+        <domain>jdpower.com</domain>
+        <domain>jeepforum.com</domain>
+        <domain>kayak.com</domain>
+        <domain>kbb.com</domain>
+        <domain>kiplinger.com</domain>
+        <domain>latimes.com</domain>
+        <domain>lazydays.com</domain>
+        <domain>lifehacker.com</domain>
+        <domain>linkedin.com</domain>
+        <domain>lohud.com</domain>
+        <domain>loopnet.com</domain>
+        <domain>mail.aol.com</domain>
+        <domain>mail.com</domain>
+        <domain>mail.yahoo.com</domain>
+        <domain>marketwatch.com</domain>
+        <domain>mashable.com</domain>
+        <domain>mensfitness.com</domain>
+        <domain>menshealth.com</domain>
+        <domain>mensjournal.com</domain>
+        <domain>merriam-webster.com</domain>
+        <domain>mlb.com</domain>
+        <domain>motleyfool.com</domain>
+        <domain>motorauthority.com</domain>
+        <domain>motortrend.com</domain>
+        <domain>movoto.com</domain>
+        <domain>msn.com</domain>
+        <domain>msnbc.com</domain>
+        <domain>mycentraljersey.com</domain>
+        <domain>myfitnesspal.com</domain>
+        <domain>myfoxny.com</domain>
+        <domain>myfoxphilly.com</domain>
+        <domain>n4g.com</domain>
+        <domain>nadaguides.com</domain>
+        <domain>nationalgeographic.com</domain>
+        <domain>nbcnews.com</domain>
+        <domain>nbcnewyork.com</domain>
+        <domain>nbcphiladelphia.com</domain>
+        <domain>nbcsports.com</domain>
+        <domain>nerdwallet.com</domain>
+        <domain>newcar.com</domain>
+        <domain>news.aol.com</domain>
+        <domain>news.google.com</domain>
+        <domain>news.yahoo.com</domain>
+        <domain>news12.com</domain>
+        <domain>newsday.com</domain>
+        <domain>newsweek.com</domain>
+        <domain>newyorker.com</domain>
+        <domain>nfl.com</domain>
+        <domain>nhl.com</domain>
+        <domain>nj.com</domain>
+        <domain>nj1015.com</domain>
+        <domain>northjersey.com</domain>
+        <domain>ny1.com</domain>
+        <domain>nydailynews.com</domain>
+        <domain>nymag.com</domain>
+        <domain>nypost.com</domain>
+        <domain>nyt.com</domain>
+        <domain>odometer.com</domain>
+        <domain>optimum.com</domain>
+        <domain>optimum.net</domain>
+        <domain>pcgamer.com</domain>
+        <domain>people.com</domain>
+        <domain>perezhilton.com</domain>
+        <domain>philadelphiaeagles.com</domain>
+        <domain>philly.com</domain>
+        <domain>phillymag.com</domain>
+        <domain>phillyrockradio.com</domain>
+        <domain>pix11.com</domain>
+        <domain>popularmechanics.com</domain>
+        <domain>post-gazette.com</domain>
+        <domain>power99.com</domain>
+        <domain>psmag.com</domain>
+        <domain>q102.com</domain>
+        <domain>quora.com</domain>
+        <domain>radio1045.com</domain>
+        <domain>realtor.com</domain>
+        <domain>recpro.com</domain>
+        <domain>reuters.com</domain>
+        <domain>roadandtrack.com</domain>
+        <domain>rollingstone.com</domain>
+        <domain>rotoworld.com</domain>
+        <domain>rv.campingworld.com</domain>
+        <domain>rv.com</domain>
+        <domain>rv.ganderoutdoors.com</domain>
+        <domain>rv.net</domain>
+        <domain>rvlove.com</domain>
+        <domain>rvshare.com</domain>
+        <domain>rvt.com</domain>
+        <domain>rvtrader.com</domain>
+        <domain>rvuniverse.com</domain>
+        <domain>rvusa.com</domain>
+        <domain>salon.com</domain>
+        <domain>searchtempest.com</domain>
+        <domain>seekingalpha.com</domain>
+        <domain>sfgate.com</domain>
+        <domain>shift.com</domain>
+        <domain>si.com</domain>
+        <domain>snagajob.com</domain>
+        <domain>southjersey.com</domain>
+        <domain>space.com</domain>
+        <domain>spectrum.com</domain>
+        <domain>sportingnews.com</domain>
+        <domain>starmagazine.com</domain>
+        <domain>superpages.com</domain>
+        <domain>techcrunch.com</domain>
+        <domain>tennis.com</domain>
+        <domain>theatlantic.com</domain>
+        <domain>theaviationist.com</domain>
+        <domain>thecarconnection.com</domain>
+        <domain>thechive.com</domain>
+        <domain>thedrive.com</domain>
+        <domain>theguardian.com</domain>
+        <domain>thehill.com</domain>
+        <domain>therealdeal.com</domain>
+        <domain>thesaurus.com</domain>
+        <domain>thestreet.com</domain>
+        <domain>thetruthaboutcars.com</domain>
+        <domain>theverge.com</domain>
+        <domain>theweek.com</domain>
+        <domain>thrillist.com</domain>
+        <domain>time.com</domain>
+        <domain>timesunion.com</domain>
+        <domain>tinyurl.com</domain>
+        <domain>tmz.com</domain>
+        <domain>topgear.com</domain>
+        <domain>torquenews.com</domain>
+        <domain>trentonian.com</domain>
+        <domain>triblive.com</domain>
+        <domain>truecar.com</domain>
+        <domain>trulia.com</domain>
+        <domain>tvguide.com</domain>
+        <domain>usatoday.com</domain>
+        <domain>usedcars.about.com</domain>
+        <domain>usmagazine.com</domain>
+        <domain>usnews.com</domain>
+        <domain>variety.com</domain>
+        <domain>vh1.com</domain>
+        <domain>villagevoice.com</domain>
+        <domain>vogue.com</domain>
+        <domain>vox.com</domain>
+        <domain>vwvortex.com</domain>
+        <domain>w3schools.com</domain>
+        <domain>walmart.com</domain>
+        <domain>wasingtopost.com</domain>
+        <domain>webmd.com</domain>
+        <domain>weichert.com</domain>
+        <domain>westphillylocal.com</domain>
+        <domain>whitepages.com</domain>
+        <domain>wikihow.com</domain>
+        <domain>wired.com</domain>
+        <domain>wmmr.com</domain>
+        <domain>wnep.com</domain>
+        <domain>woot.com</domain>
+        <domain>wpg1450.com</domain>
+        <domain>wsj.com</domain>
+        <domain>wunderground.com</domain>
+        <domain>xe.com</domain>
+        <domain>xfinity.com</domain>
+        <domain>yahoo.com</domain>
+        <domain>yellowpages.com</domain>
+        <domain>yelp.com</domain>
+        <domain>youtube.com</domain>
+        <domain>zeroto60times.com</domain>
+        <domain>zillow.com</domain>
+      </domain_list>
+    </domain_lists>
+</config>

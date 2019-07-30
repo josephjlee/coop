@@ -1,0 +1,322 @@
+.specialstitle {
+    font-size: 10px;
+    margin: -10px 0 -10px 0
+}
+
+.disclaimer {
+    bottom: 0px;
+}
+
+#footer {
+    display: absolute;
+    bottom: 0px;
+}
+
+.note {
+    font-size: 0.7em;
+    line-height: 1.2em;
+}
+#custom_img {}
+
+@media only screen and (min-height: 550px) and (min-width: 270px) {
+  .amount{
+    font-size:25px;
+    line-height: 25px;
+  }
+  .amount sup{
+    font-size: 16px;
+  }
+    #custom_img {
+        background-color: white;
+        max-height: 110px;
+        width: 100%;
+        text-align: : center;
+    }
+    #custom_img img {
+        max-width: 100%;
+        max-height: 110px;
+
+    }
+    .price_title {
+        top: 56%;
+    }
+    .details {
+        top: 63%;
+    }
+    #veh {
+        line-height: 32px;
+        overflow: hidden;
+        height: 30px;
+    }
+    .terms1 {
+        line-height: 40px;
+    }
+
+}
+
+
+/* w:480 h: 320 */
+
+@media only screen and (max-height: 510px) and (max-width: 510px) and (min-height: 310px) and (min-width: 400px) {
+    .details {
+        left: 67%;
+        top: 20%;
+    }
+    .cta {
+        width: 155px;
+        padding-top: 10px;
+        bottom: 8%;
+        right: 5%;
+    }
+    .note {
+        font-size: 12px;
+    }
+    #veh {
+        font-size: 18px;
+        width: 80%;
+        max-height: 80px;
+        overflow: hidden;
+    }
+    .amount span, .amount sup {
+        font-size: 15px;
+    }
+    ;
+    #custom_img {
+        background-color: white;
+        width: 128px;
+        height: 300px;
+    }
+    #custom_img img {
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+
+/* h:480 w: 320 */
+
+@media only screen and (max-height: 510px) and (min-height: 400px) and (min-width: 310px) {
+    .details {
+        top: 60%;
+    }
+    #veh {
+        line-height: 32px;
+        overflow: hidden;
+        height: 30px;
+    }
+    .terms1 {
+        line-height: 40px;
+    }
+    .custom_img {
+      margin:auto;
+      max-height: 100px;
+    }
+    .custom_img img{
+      max-height: 90px;
+      max-width: 100%;
+    }
+    .amount{
+      font-size: 25px;
+      line-height: 25px;
+    }
+}
+
+@media only screen and (max-height: 95px) {
+    .details {
+        right: 0%;
+        top: -1%;
+        width: 50%;
+    }
+    #veh {
+        font-size: 12px;
+        width: 55%;
+        height: 20px;
+        overflow: hidden;
+    }
+    .disclaimer {
+        width: 18%;
+        font-size: 8px;
+    }
+    #custom_img img {
+        max-height: 80px;
+        margin-top:5px;
+    }
+    .term1{
+      line-height: 25px;
+    }
+}
+
+@media only screen and (max-height: 280px) and (max-width: 310px) {
+    .title {
+        display: none;
+    }
+    .details {
+        width: 100%;
+    }
+    .note {
+        width: 23%;
+        word-wrap: break-word;
+        float: right;
+    }
+    #veh {
+        width: 100%;
+        height: 1.2em;
+        padding-bottom: 15px;
+        overflow: hidden;
+    }
+    #custom_img {
+        background-color: white;
+        height: 140px;
+        width: 100%;
+        text-align: : center;
+    }
+    #custom_img img {
+        max-width: 100%;
+        max-height: 120px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .price_title {
+        display: none;
+    }
+    .details {
+        top: 50%;
+    }
+    .term1 {
+        font-size: 50em;
+    }
+    .type {
+        width: 160px;
+        height:
+    }
+    #custom_img img {
+        width: 100%;
+    }
+    .amount{
+      font-size:25px;
+      line-height: 25px;
+    }
+    .amount sup{
+      font-size:15px;
+  }
+}
+
+@media only screen and (max-height: 55px) and (max-width: 340px) and (min-height: 45px) and (min-width: 310px) {
+    .header {
+        width: 30%;
+    }
+    #veh {
+        font-size: 8px;
+        width: 60%;
+        height: 18px;
+        overflow: hidden;
+    }
+    .amount span, .amount sup {
+        font-size: 5px;
+    }
+    .offer {
+        margin-left: 20px;
+    }
+    .note {
+        display: none;
+    }
+    .aLogo p {
+        top: 35px;
+        left: 2px;
+        font-size: 8px;
+    }
+    #custom_img {
+        height: 50px;
+        background-color: white;
+    }
+    #custom_img img {
+        height: 30px;
+    }
+    .disclaimer {
+        font-size: 5px;
+        width: 20%;
+    }
+}
+
+@media only screen and (max-height: 100px) and (max-width: 330px) and (min-height: 95px) and (min-width: 310px) {
+    .header {
+        height: 120px;
+        width: 130px;
+    }
+    .aLogo {
+        margin: 10px;
+    }
+    .aLogo p {
+        font-size: 11px;
+        top: 90px;
+    }
+    .details {
+        width:60%;
+        right: 0;
+    }
+    #veh {
+        font-size: 12px;
+        height: 18px;
+        overflow: hidden;
+    }
+    .disclaimer {
+        font-size: 8px;
+        width: 124px;
+        margin-left: -5px;
+    }
+    .vehicle, .vehicle1, .vehicle2 {
+        width: 70px;
+        left: 130px;
+        top: 25px;
+    }
+    .term1, .note {
+        display: none;
+    }
+    .offer {
+        font-size: 11px;
+        width: 170px;
+        left: 140px;
+        text-align: right;
+    }
+    .offer div {
+        margin-left: 0px;
+    }
+    .amount {
+        font-size: 14px;
+        margin-top: -4px;
+    }
+    .amount span, .amount sup {
+        font-size: 9px;
+    }
+    .terms1, .note {
+        display: none;
+    }
+    .cta {
+        width: 17%;
+        height: 40%;
+    }
+    .cta span {
+        margin-top: -14px;
+    }
+    #custom_img {
+        background-color: white;
+        height: 100px;
+        width: 100%;
+    }
+    #custom_img img {
+        max-width: 100%;
+        max-height: 55px;
+        float: left;
+        margin-top:15px;
+    }
+}
+@media only screen and (max-height: 100px) {
+  .amount {
+    font-size:17px;
+    line-height:17px;
+  }
+  .amount sup {
+    font-size:12px;
+  }
+}

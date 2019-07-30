@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'InfinitiBrand';
+    src: url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Regular.eot');
+    src: url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Regular.woff') format('woff'),
+         url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Regular.ttf') format('truetype'),
+         url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;2
+}
+
+@font-face {
+    font-family: 'InfinitiBrandLight';
+    src: url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Light.eot');
+    src: url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Light.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Light.woff') format('woff'),
+         url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Light.ttf') format('truetype'),
+         url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InfinitiBrandBold';
+    src: url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Bold.eot');
+    src: url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Bold.woff') format('woff'),
+         url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Bold.ttf') format('truetype'),
+         url('https://cdn.dealerx.com/assets/fonts/infiniti/InfinitiBrand-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dynamic new</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="displayheight" content="31, 60, 90, 125, 250, 400, 600">
+    <meta name="robots" content="noindex, nofollow" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300,400,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.dealerx.com/assets/bootstrap/vendor/owl-carousel/owl.carousel.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.dealerx.com/assets/element-css/v1/v1.css">
+    <!-- <link rel="stylesheet" href="https://cdn.dealerx.com/assets/element-css/v1/dynamic_template_custom.css"> -->
+    <style>
+    .specialstitle {
+        font-size: 10px;
+        margin: -10px 0 -10px 0
+    }
+
+    .disclaimer {
+        bottom: 0px;
+    }
+
+    #footer {
+        display: absolute;
+        bottom: 0px;
+    }
+
+    .note {
+        font-size: 0.7em;
+        line-height: 1.2em;
+    }
+
+    #custom_img {}
+
+    @media only screen and (min-height: 550px) and (min-width: 270px) {
+        #custom_img {
+            background-color: white;
+            max-height: 110px;
+            width: 100%;
+            text-align: : center;
+        }
+        #custom_img img {
+            max-width: 100%;
+            max-height: 110px;
+
+        }
+        .price_title {
+            top: 56%;
+        }
+        .details {
+            top: 63%;
+        }
+        #veh {
+            line-height: 32px;
+            overflow: hidden;
+            height: 30px;
+        }
+        .terms1 {
+            line-height: 40px;
+        }
+        .amount {
+          line-height: 50px !important;
+        }
+    }
+
+
+    /* w:480 h: 320 */
+
+    @media only screen and (max-height: 510px) and (max-width: 510px) and (min-height: 310px) and (min-width: 400px) {
+        .details {
+            left: 67%;
+            top: 20%;
+        }
+        .cta {
+            width: 155px;
+            padding-top: 10px;
+            bottom: 8%;
+            right: 5%;
+        }
+        .note {
+            font-size: 12px;
+        }
+        #veh {
+            font-size: 18px;
+            width: 80%;
+            max-height: 80px;
+            overflow: hidden;
+        }
+        .amount{
+          line-height: 40px;
+        }
+        .amount span, .amount sup {
+            font-size: 15px;
+        }
+        ;
+        #custom_img {
+            background-color: white;
+            width: 128px;
+            height: 300px;
+        }
+        #custom_img img {
+            width: 80%;
+            margin-top: 10px;
+        }
+    }
+
+
+    /* h:480 w: 320 */
+
+    @media only screen and (max-height: 510px) and (min-height: 400px) and (min-width: 310px) {
+        .details {
+            top: 60%;
+        }
+        #veh {
+            line-height: 32px;
+            overflow: hidden;
+            height: 30px;
+        }
+        .terms1 {
+            line-height: 40px;
+        }
+        .custom_img {
+          margin:auto;
+          max-height: 100px;
+        }
+        .custom_img img{
+          max-height: 90px;
+          max-width: 100%;
+        }
+        .amount{
+          line-height: 40px;
+        }
+    }
+
+    @media only screen and (max-height: 95px) {
+        .details {
+            right: 0%;
+            top: -1%;
+            width: 50%;
+        }
+        #veh {
+            font-size: 12px;
+            width: 55%;
+            height: 20px;
+            overflow: hidden;
+        }
+        .disclaimer {
+            width: 18%;
+            font-size: 8px;
+        }
+        #custom_img img {
+            max-height: 80px;
+            margin-top:5px;
+        }
+        .term1{
+          line-height: 25px;
+        }
+        .amount{
+          line-height: 40px;
+        }
+    }
+
+    @media only screen and (max-height: 280px) and (max-width: 310px) {
+        .title {
+            display: none;
+        }
+        .details {
+            width: 100%;
+        }
+        .note {
+            width: 23%;
+            word-wrap: break-word;
+            float: right;
+        }
+        #veh {
+            width: 100%;
+            height: 1.2em;
+            padding-bottom: 15px;
+            overflow: hidden;
+        }
+        #custom_img {
+            background-color: white;
+            height: 140px;
+            width: 100%;
+            text-align: : center;
+        }
+        #custom_img img {
+            max-width: 100%;
+            max-height: 120px;
+        }
+        .amount{
+          line-height: 30px;
+        }
+    }
+
+    @media only screen and (max-width: 200px) {
+        .price_title {
+            display: none;
+        }
+        .amount{
+          line-height: 40px;
+        }
+        .details {
+            top: 50%;
+        }
+        .term1 {
+            font-size: 50em;
+        }
+        .type {
+            width: 160px;
+            height:
+        }
+        #custom_img img {
+            width: 100%;
+        }
+        .amount {
+          line-height: 40px;
+        }
+    }
+
+    @media only screen and (max-height: 55px) and (max-width: 340px) and (min-height: 45px) and (min-width: 310px) {
+        .header {
+            width: 30%;
+        }
+        #veh {
+            font-size: 8px;
+            width: 60%;
+            height: 18px;
+            overflow: hidden;
+        }
+        .amount span, .amount sup {
+            font-size: 5px;
+        }
+        .offer {
+            margin-left: 20px;
+        }
+        .note {
+            display: none;
+        }
+        .aLogo p {
+            top: 35px;
+            left: 2px;
+            font-size: 8px;
+        }
+        #custom_img {
+            height: 50px;
+            background-color: white;
+        }
+        #custom_img img {
+            height: 30px;
+        }
+        .disclaimer {
+            font-size: 5px;
+            width: 20%;
+        }
+    }
+
+    @media only screen and (max-height: 100px) and (max-width: 330px) and (min-height: 95px) and (min-width: 310px) {
+        .header {
+            height: 120px;
+            width: 130px;
+        }
+        .aLogo {
+            margin: 10px;
+        }
+        .aLogo p {
+            font-size: 11px;
+            top: 90px;
+        }
+        .details {
+            width:60%;
+            right: 0;
+        }
+        #veh {
+            font-size: 12px;
+            height: 18px;
+            overflow: hidden;
+        }
+        .disclaimer {
+            font-size: 8px;
+            width: 124px;
+            margin-left: -5px;
+        }
+        .vehicle, .vehicle1, .vehicle2 {
+            width: 70px;
+            left: 130px;
+            top: 25px;
+        }
+        .term1, .note {
+            display: none;
+        }
+        .offer {
+            font-size: 11px;
+            width: 170px;
+            left: 140px;
+            text-align: right;
+        }
+        .offer div {
+            margin-left: 0px;
+        }
+        .amount {
+            font-size: 14px;
+            margin-top: -4px;
+        }
+        .amount span, .amount sup {
+            font-size: 9px;
+        }
+        .terms1, .note {
+            display: none;
+        }
+        .cta {
+            width: 17%;
+            height: 40%;
+        }
+        .cta span {
+            margin-top: -14px;
+        }
+        #custom_img {
+            background-color: white;
+            height: 100px;
+            width: 100%;
+        }
+        #custom_img img {
+            max-width: 100%;
+            max-height: 55px;
+            float: left;
+            margin-top:15px;
+        }
+    }
+    @media only screen and (max-height: 100px){
+      .amount{
+        line-height: 40px;
+      }
+    }
+    </style>
+</head>
+<body>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script id="packetjs" src="https://cdn.dealerx.com/creatives/js/packet.js"></script>
+<script src="https://cdn.dealerx.com/assets/bootstrap/vendor/owl-carousel/owl.carousel.min.js"></script>
+<script src="https://cdn.dealerx.com/creatives/wKu71fAb/model-specials/specials.js"></script>
+<script type="text/javascript">
+    if (specials && specials.ram_ram_pickup_1500) {
+        specials.ram_ram_pickup_1500.forEach((a) => {
+            a.custom_offer = "Up To 25% Off MSRP";
+        })
+        console.log(specials.ram_ram_pickup_1500)
+    }
+</script>
+<script>
+    var options = {
+        nissan: 'https://cdn.dealerx.com/assets/element-css/v1/nissan.css',
+        toyota: 'https://cdn.dealerx.com/assets/element-css/v1/toyota.css',
+        honda: 'https://cdn.dealerx.com/assets/element-css/v1/honda.css',
+        ford: 'https://cdn.dealerx.com/assets/element-css/v1/ford.css',
+        chrysler: 'https://cdn.dealerx.com/assets/element-css/v1/chrysler.css',
+        chevrolet: 'https://cdn.dealerx.com/assets/element-css/v1/chevy.css',
+        price: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Now for </div><div class="amount"><sup>$</sup>{{price}}</div></div>',
+        payment_t1: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Finance For</div><div class="amount"><sup>$</sup>{{payment_t1}}<span>/mo</span></div></div>',
+        payment_t1_expires: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Finance For</div><div class="amount"><sup>$</sup>{{payment_t1}}<span>/mo</span></div><div  class="note">Offer Expires on {{finance_expiration}}</div></div>',
+        payment_t2: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Finance For</div><div class="amount"><sup>$</sup>336<span>/mo</span></div></div>',
+        payment_t2_expires: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Finance For</div><div class="amount"><sup>$</sup>336<span>/mo</span></div><div class="note">Offer Expires on {{lease_expiration}}</div></div>',
+        lease_payment: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Lease For</div><div class="amount"><sup>$</sup>{{lease_payment}}<span>/mo</span></div></div>',
+        lease_payment_expires: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Lease For</div><div class="amount"><sup>$</sup>{{lease_payment}}<span>/mo</span></div><div  class="note">Offer Expires on {{lease_expiration}}</div></div>',
+        interest_rate: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type"> </div><div class="amount">{{interest_rate}}<sup>%</sup></div><div class="terms1">APR Available</div></div>',
+        interest_rate_expires: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type"> </div><div class="amount">{{interest_rate}}<sup>%</sup></div><div class="terms1">APR Available</div><div  class="note">Offer Expires on {{finance_expiration}}</div></div>',
+        rebate_name_1: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">{{rebate_name_1}}</div><div class="amount"><sup>$</sup>{{rebate_amount_1}}</div></div>',
+        rebate_name_2: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">{{rebate_name_2}}</div><div class="amount"><sup>$</sup>{{rebate_amount_2}}</div></div>',
+        rebate_name_3: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">{{rebate_name_3}}</div><div class="amount"><sup>$</sup>{{rebate_amount_3}}</div></div>',
+        rebate_name_4: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">{{rebate_name_4}}</div><div class="amount"><sup>$</sup>{{rebate_amount_4}}</div></div>',
+        custom_offer: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="custom_text" ><i><strong>{{custom_offer}}</strong></i></div></div>',
+        custom_img_300x110: '<div class="offer"><div id="custom_img"><img src="{{image_url}}"></div></div>',
+        template: '<div class="banner"> <a href="{{url}}" target="_blank"><div class="header" style="background:{setup_ad_header_color}"> <div class="aLogo"><img src="https://cdn.dealerx.com/advertiser_logos/wKu71fAb.png" alt="logo"></div></div><div class="title"><span class="year"></span> <strong>{{make}}</strong> <span class="model">{{model}}</span></div><div class="vehicle" contenteditable="false"> <img src="https://fuel.dealerx.com/stills/{{EVOX_ID}}/{{EVOX_ID}}_st0640_090.png" alt="Vehicle"></div><div class="vehicle1" contenteditable="false"> <img src="https://fuel.dealerx.com/stills/{{EVOX_ID}}/{{EVOX_ID}}_st0640_121.png" alt="Vehicle"></div><div class="vehicle2" contenteditable="false"> <img src="https://fuel.dealerx.com/stills/{{EVOX_ID}}/{{EVOX_ID}}_st0640_037.png" alt="Vehicle"></div><div class="price_title"> <strong> Special Offers </strong></div><div class="details"> <div id="offers">{{OFFERS}} </div></div> </a> <div> <a href="{{url}}" target="_blank"> <div class="cta" style="background:{setup_ad_button_bg_color}"><span>Get Yours Now</span></div></a><div class="disclaimer">Terms & Conditions Apply, Read The Full Disclaimer <strong onclick="toggledisc()">Here</strong></div><div class="term_details" style="display: none;"><strong class="close" onclick="toggledisc()">X</strong>Finance Disclaimer:{{finance_disclosure}}</div> </div></div>'
+    };
+</script>
+<script src="https://cdn.dealerx.com/assets/element-css/v1/dynamic_new_custom.js"></script>
+</html>

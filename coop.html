@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dynamic new</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="displayheight" content="31, 60, 90, 125, 250, 400, 600">
+<meta name="robots" content="noindex, nofollow" />
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300,400,800" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.dealerx.com/assets/bootstrap/vendor/owl-carousel/owl.carousel.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.dealerx.com/assets/element-css/v1/v1.css">
+<link rel="stylesheet" href="https://cdn.dealerx.com/assets/element-css/v1/dynamic_template_custom.css">
+<link rel="stylesheet" href="https://cdn.dealerx.com/assets/element-assets/css/coop/dynamic_template_custom_coop.css">
+</head>
+<body>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script id="packetjs" src="https://cdn.dealerx.com/creatives/js/packet.js"></script>
+<script src="https://cdn.dealerx.com/assets/bootstrap/vendor/owl-carousel/owl.carousel.min.js"></script>
+<script src="https://cdn.dealerx.com/creatives/{setup_roiq_id}/model-specials/specials.js"></script>
+<script type="text/javascript">
+function setHeaderFooter(){
+var intFrameHeight = window.innerHeight;
+var intFrameWidth = window.innerWidth;
+var size = intFrameWidth + 'x' + intFrameHeight;
+var header, footer;
+if (intFrameWidth < 729 && intFrameHeight < 601) {
+  switch (true) {
+    case (intFrameWidth >= 290 && intFrameWidth <= 310 && intFrameHeight >= 590 && intFrameHeight <= 610):
+    case (intFrameWidth >= 310 && intFrameWidth <= 330 && intFrameHeight >= 470 && intFrameHeight <= 490):
+      header = "https://cdn.dealerx.com/creatives/coop/{{coopMake}}/header_320x140.jpg";
+      footer = "https://cdn.dealerx.com/creatives/coop/{{coopMake}}/footer_320x45.jpg";
+      break;
+    case (intFrameWidth >= 290 && intFrameWidth <= 310 && intFrameHeight >= 240 && intFrameHeight <= 260):
+      header = "https://cdn.dealerx.com/creatives/coop/{{coopMake}}/header_300x80.jpg";
+      footer = "https://cdn.dealerx.com/creatives/coop/{{coopMake}}/footer_320x45.jpg";
+      break;
+    case (intFrameWidth >= 155 && intFrameWidth <= 165 && intFrameHeight >= 590 && intFrameHeight <= 610):
+      header = "https://cdn.dealerx.com/creatives/coop/{{coopMake}}/header_160x160.jpg";
+      footer = "https://cdn.dealerx.com/creatives/coop/{{coopMake}}/footer_160x160.jpg";
+      break;
+    case (intFrameWidth >= 718 && intFrameWidth <= 738 && intFrameHeight >= 85 && intFrameHeight <= 95):
+    case (intFrameWidth >= 310 && intFrameWidth <= 330 && intFrameHeight >= 45 && intFrameHeight <= 55):
+      header = "https://cdn.dealerx.com/creatives/coop/{{coopMake}}/header_320x140.jpg";
+      footer = "https://cdn.dealerx.com/creatives/coop/{{coopMake}}/footer_320x140.jpg";
+    default:
+  };
+};
+
+if (header && footer) {
+  console.log('header', header,'footer', footer)
+  $('.header').append('<img src="' + header + '"/>');
+  $('.footer').append('<img src="' + footer + '"/>');
+};
+};
+</script>
+<script>
+    var options_coop = {
+        price: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Now for </div><div class="amount"><sup>$</sup>{{price}}</div></div>',
+        payment_t1: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Finance For</div><div class="amount"><sup>$</sup>{{payment_t1}}<span>/mo</span></div></div>',
+        payment_t1_expires: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Finance For</div><div class="amount"><sup>$</sup>{{payment_t1}}<span>/mo</span></div><div  class="note">Offer Expires on {{finance_expiration}}</div></div>',
+        payment_t2: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Finance For</div><div class="amount"><sup>$</sup>336<span>/mo</span></div></div>',
+        payment_t2_expires: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Finance For</div><div class="amount"><sup>$</sup>336<span>/mo</span></div><div class="note">Offer Expires on {{lease_expiration}}</div></div>',
+        lease_payment: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Lease For</div><div class="amount"><sup>$</sup>{{lease_payment}}<span>/mo</span></div></div>',
+        lease_payment_expires: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">Lease For</div><div class="amount"><sup>$</sup>{{lease_payment}}<span>/mo</span></div><div  class="note"><div id="term">for {{term}} months. <span id="downpayment">${{downpayment}}</span> due at lease signing.</div> <div><i>Excludes tax, title and fees</i></div><div>Offer Expires on {{lease_expiration}}</div></div></div>',
+        interest_rate: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type"> </div><div class="amount" id="interest_rate">{{interest_rate}}<sup>%</sup></div><div class="terms1">APR Financing</div><div  class="note">up to {{term}} months.</div></div>',
+        interest_rate_expires: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type"> </div><div class="amount"  id="interest_rate">{{interest_rate}}<sup>%</sup></div><div class="terms1">APR Financing</div><div  class="note">up to {{term}} months. </br>Offer Expires on {{finance_expiration}}</div></div>',
+        rebate_name_1: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">{{rebate_name_1}}</div><div class="amount"><sup>$</sup>{{rebate_amount_1}}</div></div>',
+        rebate_name_2: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">{{rebate_name_2}}</div><div class="amount"><sup>$</sup>{{rebate_amount_2}}</div></div>',
+        rebate_name_3: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">{{rebate_name_3}}</div><div class="amount"><sup>$</sup>{{rebate_amount_3}}</div></div>',
+        rebate_name_4: '<div class="offer"><div id="veh"><strong> {{year}} {{make}} {{model}} {{trim}} </strong></div><div class="type">{{rebate_name_4}}</div><div class="amount"><sup>$</sup>{{rebate_amount_4}}</div></div>',
+        custom_img_300x110 : '<div class="offer"><div id="custom_img"><img src="{{image_url}}"></div></div>',
+        template: '<div class="banner"><div class="header" style="background:{setup_ad_header_color}"></div></div><div class="title"><span class="year"></span> <strong>{{make}}</strong> <span class="model">{{model}}</span></div><div class="vehicle" contenteditable="false"> <img src="https://fuel.dealerx.com/stills/{{EVOX_ID}}/{{EVOX_ID}}_st0640_090.png" alt="Vehicle"></div><div class="vehicle1" contenteditable="false"> <img src="https://fuel.dealerx.com/stills/{{EVOX_ID}}/{{EVOX_ID}}_st0640_121.png" alt="Vehicle"></div><div class="vehicle2" contenteditable="false"> <img src="https://fuel.dealerx.com/stills/{{EVOX_ID}}/{{EVOX_ID}}_st0640_037.png" alt="Vehicle"></div><div class="details"> <div id="offers">{{OFFERS}} </div></div><div class="footer" style="background:{setup_ad_header_color}"></div><div id="id"><img src="https://cdn.dealerx.com/advertiser_logos/{setup_roiq_id}.png"/></div><div> <a href="{{url}}" target="_blank"> <div class="cta" style="background:{setup_ad_button_bg_color}"><span>Get Yours Now</span></div></a><div class="disclaimer">Terms & Conditions Apply, Read The Full Disclaimer <strong onclick="toggledisc()">Here</strong></div><div class="term_details" style="display: none;"><strong class="close" onclick="toggledisc()">X</strong>Finance Disclaimer:{{finance_disclosure}}</div> </div></div>'
+    };
+</script>
+<script  src="https://cdn.dealerx.com/assets/element-assets/js/coop/dynamic_new_custom_coop.js"></script>
+</html>

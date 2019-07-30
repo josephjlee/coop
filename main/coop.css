@@ -1,0 +1,691 @@
+.specialstitle {
+    font-size: 10px;
+    margin: -10px 0 -10px 0;
+}
+
+.disclaimer {
+    bottom: 0px;
+}
+
+#footer {
+    display: absolute;
+    bottom: 0px;
+}
+.footer {
+  position: absolute;
+}
+.footer img{
+    width: 55%;
+}
+
+.note {
+    font-size: 0.7em;
+    line-height: 1.2em;
+}
+
+#term {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.type {
+    font-size: 20px;
+}
+.title{
+  display: none;
+}
+.cta{
+  display: none;
+}
+#id img{
+  max-width: 130px;
+}
+#id{
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+
+}
+#custom_img {}
+
+  .term_details{
+    background-color: #000;
+    text-align: justify;
+    overflow-y:scroll;
+    font-size: 9px;
+    width: 100%;
+    height:100%;
+    padding:15% 10%;
+  }
+  #vin{
+    font-size: 1em;
+  }
+
+@media only screen and (min-height: 550px) and (min-width: 270px) {
+
+  .header{
+    height: 130px;
+    padding-top:0px;
+  }
+  .header img {
+    max-height:125px;
+    max-width: 300px;
+  }
+  .vehicle, .vehicle1, .vehicle2{
+    top:18%;
+  }
+  .footer{
+    height: 45px;
+    position: absolute;
+    bottom: 0px;
+  }
+    #custom_img {
+        background-color: white;
+        max-height: 110px;
+        width: 100%;
+        text-align: : center;
+    }
+    #custom_img img {
+        max-width: 100%;
+        max-height: 110px;
+    }
+    .price_title {
+        top: 56%;
+    }
+    #veh {
+        line-height: 32px;
+        overflow: hidden;
+        height: 30px;
+    }
+    .terms1 {
+        line-height: 40px;
+    }
+    .details {
+        top: 50%;
+    }
+    .type {
+        font-size: 13px;
+    }
+    .term {
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 20px;
+    }
+    .amount{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .amount{
+      line-height: 20px;
+    }
+    #downpayment {
+      line-height: 23px;
+    }
+    .amount sup {
+        font-size: 14px;
+    }
+    .amount span {
+        font-size: 14px;
+    }
+    .cta{
+    font-size:1em;
+    height: 30px;
+    bottom:15%;
+    width: 70%;
+    }
+    .disclaimer{
+      bottom:9%;
+      width: 80%;
+      margin-left: 10%;
+    }
+    .footer img {
+      max-height: 45px;
+      max-width: 150px;
+    }
+}
+
+
+/* w:480 h: 320 */
+
+@media only screen and (max-height: 510px) and (max-width: 510px) and (min-height: 310px) and (min-width: 400px) {
+    .details {
+        left: 61%;
+        top: 5%;
+    }
+    .header{
+      left:0px;
+      top: 0px;
+      max-width: 60%;
+      height: 125px;
+    }
+    .header img{
+      max-height: 100%;
+    }
+    .cta {
+        width: 155px;
+        padding-top: 10px;
+        bottom: 8%;
+        right: 5%;
+    }
+    .note {
+        font-size: 12px;
+    }
+    #veh {
+        font-size: 18px;
+        width: 80%;
+        max-height: 80px;
+        overflow: hidden;
+    }
+    .amount span, .amount sup {
+        font-size: 15px;
+    }
+    ;
+    #custom_img {
+        background-color: white;
+        width: 128px;
+        height: 300px;
+    }
+    #custom_img img {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .amount, #downpayment {
+      line-height:27px;
+    }
+}
+
+
+/* h:480 w: 320 */
+
+@media only screen and (max-height: 510px) and (min-height: 400px) and (min-width: 310px) {
+  .header{
+  height: 140px;
+  padding-top: 0px;
+  }
+  .header img {
+    max-width: 320px;
+    max-height: 135px;
+  }
+  .footer{
+  bottom: -5px;
+  }
+  .vehicle, .vehicle1, .vehicle2{
+    width: 80%;
+    margin-left:10%;
+    top:22%;
+  }
+    .details {
+        top: 46%;
+    }
+    .type {
+        line-height: 32px;
+    }
+    #veh {
+        line-height: 32px;
+        overflow: hidden;
+        height: 30px;
+        margin-top: 15px;
+    }
+    .terms1 {
+        line-height: 40px;
+    }
+    .custom_img {
+        margin: auto;
+        max-height: 100px;
+    }
+    .custom_img img {
+        max-height: 90px;
+        max-width: 100%;
+    }
+    .amount{
+      font-size: 24px;
+      font-weight: bold;
+    }
+     #downpayment{
+       line-height: 10px;
+     }
+     .cta{
+       font-size: 1em;
+       width: 70%;
+       bottom: 14%;
+       height: 6%;
+     }
+     .disclaimer{
+       bottom: 50px;
+     }
+}
+
+@media only screen and (max-height: 95px) {
+    .details {
+        right: 0%;
+        top: -1%;
+        width: 50%;
+        line-height: 1.1em;
+    }
+    #veh {
+        font-size: 12px;
+        width: 55%;
+        height: 20px;
+        overflow: hidden;
+    }
+    .disclaimer {
+        width: 18%;
+        font-size: 8px;
+    }
+    #custom_img img {
+        max-height: 80px;
+        margin-top: 5px;
+    }
+    .term1 {
+        line-height: 25px;
+        padding-top: 5px;
+    }
+    .type {
+        font-size: 12px;
+    }
+    #term {
+        font-size: 10px;
+    }
+    .terms1 {
+        font-size: 13px;
+        padding-top: 7px;
+    }
+    .footer{
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+    .footer img{
+      max-height: 90px;
+      max-width: 180px;
+    }
+}
+
+@media only screen and (max-height: 280px) and (max-width: 310px) {
+    .title {
+        display: none;
+    }
+    .details {
+        width: 100%;
+        top:30%;
+        font-size: 12px;
+    }
+    .disclaimer{
+      bottom: 41px;
+      width: 45%;
+    }
+    .note {
+        width: 70%;
+        word-wrap: break-word;
+        float: right;
+        font-size: 10px;
+    }
+    #veh {
+        width: 100%;
+        height: 18px;
+        padding-bottom: 15px;
+        overflow: hidden;
+        font-size: 13px;
+    }
+    #term {
+        width: 60%;
+        text-align: right;
+        margin-left: 40%;
+        font-size: 12px;
+    }
+    .vehicle, .vehicle1, .vehicle2 {
+        width: 70%;
+        top:33%;
+
+    }
+    #custom_img {
+        background-color: white;
+        height: 140px;
+        width: 100%;
+        text-align: : center;
+    }
+    #custom_img img {
+        max-width: 100%;
+        max-height: 120px;
+    }
+    #interest_rate {
+        font-size: 18px;
+    }
+    .amount{
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 12px;
+    }
+    .amount span{
+      font-size: 10px;
+    }
+    .amount sup{
+      font-size: 10px;
+    }
+    .type{
+      font-size: 15px;
+    }
+    .header{
+      padding: 0px;
+      height:80px;
+    }
+    .header img {
+      max-height:75px;
+      max-width: 300px;
+    }
+    .footer{
+      bottom: -5px;
+      width: 47%;
+    }
+    .cta{
+      display: none;
+    }
+    #id{
+      bottom: -3px;
+    }
+    .terms1{
+      font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .price_title {
+        display: none;
+    }
+    .vehicle, .vehicle1, .vehicle2{
+      top: 24%;
+    }
+    .details {
+        top: 43%;
+        width: 100%;
+        line-height: 1.3em;
+    }
+    .term1 {
+        font-size: 50em;
+    }
+    .type {
+        width: 160px;
+    }
+    #custom_img img {
+        width: 100%;
+    }
+    #interest_rate {
+        line-height: 32px;
+    }
+    #downpayment{
+      line-height: 20px;
+    }
+    .amount{
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 20px;
+    }
+
+    .amount sup{
+      font-size: 13px;
+    }
+    .header{
+      height: 160px;
+    }
+    .header img {
+      max-width: 160px;
+      max-height: 140px;
+      margin-top: 15%;
+    }
+    .footer{
+      height: 160px;
+      bottom: 0px;
+    }
+    .footer img{
+      width: 160px;
+      max-height: 160px;
+    }
+    .disclaimer{
+      top: 72%;
+      font-size: 10px;
+    }
+    #veh{
+      max-height: 40px;
+      overflow: hidden;
+    }
+    .type{
+      font-size: 18px;
+    }
+    #id{
+      right: 15px;
+    }
+}
+
+
+@media only screen and (max-height: 100px) and (max-width: 330px) and (min-height: 95px) and (min-width: 310px) {
+    .header {
+        height: 120px;
+        width: 130px;
+    }
+    .header img{
+      max-height: 85px;
+    }
+    .aLogo {
+        margin: 10px;
+    }
+    .aLogo p {
+        font-size: 11px;
+        top: 90px;
+    }
+    .details {
+        width: 60%;
+        right: 0;
+    }
+    #veh {
+        font-size: 12px;
+        height: 18px;
+        overflow: hidden;
+    }
+    .disclaimer {
+        font-size: 8px;
+        width: 124px;
+        margin-left: -5px;
+    }
+    .vehicle, .vehicle1, .vehicle2 {
+        width: 25%;
+        left: 130px;
+        top: 25px;
+    }
+    .term1, .note {
+        display: none;
+    }
+    .offer {
+        font-size: 11px;
+        width: 170px;
+        left: 140px;
+        text-align: right;
+    }
+    .offer div {
+        margin-left: 0px;
+    }
+    .amount {
+        margin-top: -4px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .amount span, .amount sup {
+        font-size: 9px;
+    }
+    .terms1, .note {
+        display: none;
+    }
+    .cta {
+        width: 17%;
+        height: 40%;
+    }
+    .cta span {
+        margin-top: -14px;
+    }
+    #custom_img {
+        background-color: white;
+        height: 100px;
+        width: 100%;
+    }
+    #custom_img img {
+        max-width: 100%;
+        max-height: 55px;
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-height: 55px) and (max-width: 340px) and (min-height: 45px) and (min-width: 310px) {
+    .header {
+        width: 30%;
+    }
+    #veh {
+        font-size: 8px;
+        width: 60%;
+        height: 13px;
+        overflow: hidden;
+    }
+    .amount {
+        margin-top: -6px;
+    }
+    .amount span, .amount sup {
+        font-size: 5px;
+    }
+    .offer {
+        margin-left: 20px;
+    }
+    .note {
+        display: none;
+    }
+    .aLogo p {
+        top: 35px;
+        left: 2px;
+        font-size: 8px;
+    }
+    #custom_img {
+        height: 50px;
+        background-color: white;
+    }
+    #custom_img img {
+        height: 30px;
+    }
+    .disclaimer {
+        font-size: 5px;
+        width: 20%;
+    }
+    .type {
+        font-size: : 8px;
+    }
+    .terms1 {
+        font-size: 8px !important;
+    }
+}
+
+@media only screen and (max-height: 100px) {
+    .terms1 {
+        padding-top: 5px;
+    }
+    .amount {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .amount sup, .amount span {
+      font-size:10px;
+    }
+    .type{
+      line-height: 10px;
+    }
+    #term {
+    line-height: 7px;
+   }
+   .note{
+     font-size: 10px;
+   }
+   .term_details{
+     padding: 2% 2%;
+   }
+   .header {
+     width: 200px;
+     padding:0px;
+   }
+   .header img {
+     max-height: 85px;
+     max-width: 160px;
+   }
+   .footer{
+      height: 68px;
+      overflow: hidden;
+      width: 160px;
+      top:0px;
+   }
+   .footer img{
+     width:160px;
+     max-height: 90px;
+     max-width: 160px;
+   }
+   .note{
+     width: 180px;
+   }
+   .vehicle, .vehicle1, .vehicle2 {
+     top: -16px;
+      width: 20%;
+      left:205px;
+  }
+  .disclaimer{
+    width: 25%;
+    /* line-height:5px; */
+    right:49%;
+  }
+  #id{
+    height:35px;
+  }
+  #id img{
+    height: 36px;
+}
+
+}
+
+@media only screen and (max-height: 100px) and (max-width: 330px) {
+  .header img {
+    max-height: 45px;
+    max-width: 80px;
+  }
+  .header {
+    left: -50px;
+  }
+  #id{
+    max-height: 50%;
+  }
+  #id img {
+    max-height: 80%;
+  }
+  .vehicle, .vehicle1, .vehicle2 {
+    top: -5px;
+    left:30%;
+  }
+  .footer{
+  display: none;
+  }
+  .offer, .veh, .type, .amount,.amount span, .amount sup {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-height: 100px) and (min-height: 80px) and (max-width: 330px) {
+  .vehicle, .vehicle1, .vehicle2 {
+    top: -5px;
+    left:10%;
+  }
+  #veh {
+    max-height: 36px;
+  }
+  .disclaimer{
+  width: 50%;
+  text-align: center;
+  }
+  .offer, .veh,.amount,.amount span, .amount sup {
+    font-size: 11px;
+  }
+   .type{
+     font-size: 11px;
+   }
+}
